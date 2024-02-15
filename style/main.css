@@ -1,0 +1,49 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding: 0%;
+    margin: 0%;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+header{
+    width: 100%;
+    margin: 0%;
+    height: 32px;
+    background-color: rgb(131, 131, 131);
+}
+
+.offset_height{
+    padding: 64px;
+}
+
+.p_about{
+    font-size: 20px;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+footer{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    background-color: rgb(131, 131, 131);
+
+}
+
+footer p{
+    padding: 5px;
+    
+    color: white;
+    text-align: center;
+}
