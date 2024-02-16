@@ -10,6 +10,7 @@
     cursor: pointer;
     border-radius: 10px;
     border-color: rgb(96, 96, 96);
+    background-color: rgb(194, 222, 227);
 }
 
 .card p{
@@ -19,4 +20,5 @@
 .card img{
     width: 100%;
     margin-bottom: 10px;
+    border-radius: 10px;
 }

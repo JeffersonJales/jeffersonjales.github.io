@@ -26,7 +26,7 @@ add("about2", [
     'Atualmente estamos desenvolvendo o jogo <a href="https://store.steampowered.com/app/1829270/RoadOut/" target=”_blank” >RoadOut</a>,' + 
     'um jogo de ação e aventura, que será publicado em parceria com a <a href="https://dangenentertainment.com/">DANGEN Entertainment</a>.',
 
-    'I co-founded in 2018 the <a href="https://twitter.com/RoadoutGame" target="_blank">Rastrolabs Games Studio</a>,' +
+    'I co-founded in 2018 the <a href="https://twitter.com/RoadoutGame" target="_blank">Rastrolabs Games Studio</a>, ' +
     'a company focused on digital game development and one of the leading companies in the field in the state of Ceará.' + 
     'Currently, we are developing the game <a href="https://store.steampowered.com/app/1829270/RoadOut/" target="_blank">RoadOut</a>,' +
     'an action-adventure game, which will be published in partnership with <a href="https://dangenentertainment.com/" target="_blank">DANGEN Entertainment</a>.'
@@ -42,7 +42,7 @@ add("projetoLabel", ["Projetos", "Projects"]);
 add("habilidadeLabel", ["Minhas Habilidades", "My Skills"])
 add("hardSkill1", [
     "Tenho competências para trabalhar com desenvolvimento de Jogos Digitais com Unity (C#) e GameMaker (GML). Também tenho conhecimento em desenvolvimento full-stack e estou iniciando na área de Netcoding.", 
-    "I have skills to work with Digital Game Development using Unity (C#) and GameMaker (GML). I also have knowledge in full-stack development and I am starting in the area of Netcoding."
+    "I have skills to work with Digital Game Development using Unity (C#) and GameMaker (GML). I also have knowledge in full-stack development and I am starting learning abount Netcoding."
 ])
 
 add("hardSkill2", [
@@ -51,16 +51,22 @@ add("hardSkill2", [
 ])
 
 add("project_roadout",[
-    "RoadOut é um jogo de ação e aventura desenvolvido no GameMaker com GML. Em produção desde 2021 com apoio da DANGEN Enterteiment. Lançamento previsto para 2024, para as plataformas PC, Nintendo Switch, XBOX Series X/S, Sony Playstation 5.",
-    "RoadOut is an action-adventure game developed in GameMaker with GML. In production since 2021 with support from DANGEN Entertainment. Scheduled for release in 2024 on PC, Nintendo Switch, XBOX Series X/S, and Sony Playstation 5."
+    "RoadOut é um jogo de ação e aventura desenvolvido no GameMaker com GML.", 
+    "RoadOut is an action-adventure game developed in GameMaker with GML." 
 ])
+
+add("project_roadout2", [
+    "Em produção desde 2021 com apoio da DANGEN Enterteiment. Lançamento previsto para 2024, para as plataformas PC, Nintendo Switch, XBOX Series X/S, Sony Playstation 5.",
+    "In production since 2021 with support from DANGEN Entertainment. Scheduled for release in 2024 on PC, Nintendo Switch, XBOX Series X/S, and Sony Playstation 5."
+])
+
 add("project_capybara", [
-    "Capybara Hotel é um jogo no melhor estilo 'Onde está Wally?' desenvolvido no GameMaker com GML. Lançamento previsto para o segundo trimestre de 2024.",
-    "Capybara Hotel is a game in the style of 'Where's Waldo?' developed in GameMaker with GML. Scheduled for release in the second quarter of 2024."
+    "Capybara Hotel é um jogo no melhor estilo 'Onde está Wally?'. Desenvolvido no GameMaker com GML. Lançamento previsto para o segundo trimestre de 2024.",
+    "Capybara Hotel is a game like 'Where's Waldo?'. Developed in GameMaker with GML. Scheduled for release in the second quarter of 2024."
 ])
 add("project_pokedex", [
-    "Protótipo de POKéDEX utilizando a API de pokémon pokeapi.co, feito em Unity 3D com C#.",
-    "Prototype of a POKéDEX using the Pokémon API pokeapi.co, made in Unity 3D with C#."
+    "Protótipo de POKéDEX utilizando a API de pokémon pokeapi.co. Feito em Unity 3D com C#.",
+    "A POKéDEX prototype using the Pokémon API pokeapi.co. Made in Unity 3D with C#."
 ])
 
 add("created_by", [
