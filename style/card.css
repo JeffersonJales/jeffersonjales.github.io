@@ -16,7 +16,7 @@
     box-shadow: 5px 5px rgba(44, 138, 153, 0.75);
 }
 
-@media only screen and ((max-width:1000px)) {
+@media only screen and ((max-width:1200px)) {
     .row {
         display: block;
     }
@@ -24,7 +24,7 @@
     .card{
         margin-left: auto;
         margin-right: auto;
-        width: 90%;
+        width: 80%;
         
         padding: 20px;
         margin-top: 40px;

@@ -1,8 +1,8 @@
 header{
     width: 100%;
     margin: 0%;
-    height: 40px;
-    background-color: rgb(44, 138, 153)
+    height: 42px;
+    background-color: rgb(44, 138, 153);
 }
 
 .btn {
@@ -18,8 +18,22 @@ header{
 }
 
 .btn_lang{
-    position: absolute;
-    right: 0;
-    margin-right: 10px;
-    margin-top: 5px;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+@media screen and ((max-width:1200px)) {
+    .btn{
+        font-size: 18px;
+    }
+    
+    header{
+        height: 50px;
+    }
+
+    .btn_lang{
+        padding-top: 5px;
+        margin-left: 10px;
+        margin-right: 40px;
+    }
 }

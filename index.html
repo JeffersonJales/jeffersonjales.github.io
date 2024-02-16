@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 
 <head>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/profilePic.css">
     <link rel="stylesheet" href="style/footer.css">
@@ -17,18 +18,19 @@
     <script src="components/project_card.js"></script>
 </head>
 
-<header>
-    <div class="btn_lang">
-        <button id="btnPT" class="btn" onclick="setPortugeseLanguage()">PT</button>
-        <button id="btnEN" class="btn" onclick="setEnglishLanguage()">EN</button>
-    </div>
-</header>
+
 
 <body>
-    
+
+    <header>
+        <div class="btn_lang">
+            <button id="btnPT" class="btn" onclick="setPortugeseLanguage()">PT</button>
+            <button id="btnEN" class="btn" onclick="setEnglishLanguage()">EN</button>
+        </div>
+    </header>
+
     <h2>Jefferson Jales</h2>
     <hr>
-
     <img class="center rounded" src="resources/profile.jpg" alt="Foto Jefferson Jales">
     
     <!-- Texto Sobre-->
@@ -57,11 +59,12 @@
     
     <br>
 
+    <footer>
+        <p id="created_by"></p>     
+        <p id="created_when"></p>    
+    </footer>
+    
 </body>
 
-<footer>
-    <p id="created_by"></p>     
-    <p id="created_when"></p>    
-</footer>
 
 </html>
