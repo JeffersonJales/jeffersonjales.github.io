@@ -1,0 +1,21 @@
+.row {
+    display: flex;
+}
+
+.card{
+    width: 33%;
+    padding: 20px;
+    margin: 10px;
+    border: solid;
+    cursor: pointer;
+}
+
+.card p{
+    font-size: 16px;
+    
+}
+
+.card img{
+    width: 100%;
+    margin-bottom: 10px;
+}

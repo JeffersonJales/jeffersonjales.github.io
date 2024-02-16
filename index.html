@@ -3,50 +3,113 @@
 <head>
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/profilePic.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/card.css">
+    <link rel="stylesheet" href="style/habilidadr.css">
+
+    <script src="script/text.js"></script>
+    <script src="script/newTab.js"></script>
+    <script src="components/skills.js"></script>
 </head>
 
 <header>
 </header>
 
-<body>
-    <a href="en.html">English</a>
+<body">
+    
+    <!-- Botão mudar lingua 
+    <button id="langButton" onclick="changeLanguage()"></button>
+    -->
+    
+    <h2>Jefferson Jales</h2>
+    <hr>
 
-    <img class="center rounded offset_height" src="resources/profile.jpg" alt="Foto Jefferson Jales">
-
-    <div>
-        <p class="p_about">
-            Olá, me chamo Jefferson Jales, sou Programador e Desenvolvedor de jogos.   
-        </p>
-
-        <p class="p_about">
-            Abaixo você pode conferir os meus principais trabalhos na área e como foram feitos.
+    <img class="center rounded" src="resources/profile.jpg" alt="Foto Jefferson Jales">
+    
+    <!-- Texto Sobre-->
+    <div class="p_about">
+        <p id="about1" >
+            Tenho 6 anos de experiência como programador e desenvolvedor de jogos digitais, com domínio em C#, Javascript, GML e Java. 
+            Sou formado em Jogos Digitais pela Estácio e Graduando em Sistemas e Mídias Digitais na Universidade Federal do Ceará (UFC).
         </p>
         
-        <!-- Roadout -->     
-        <h4> 
-            <a href="https://store.steampowered.com/app/1829270/RoadOut/" target=”_blank” >Roadout</a>
-        </h4>
+        <br>
 
-        <a href="https://store.steampowered.com/app/1829270/RoadOut/" target=”_blank” >
-            <img src="https://cdn.akamai.steamstatic.com/steam/apps/1829270/capsule_616x353.jpg?t=1666872415" alt="Arte do jogo RoadOut">
-        </a>
-        
-        <!-- Capybara Hotel -->
-        <h4> 
-            <a href="https://store.steampowered.com/app/2308260/Capybara_Hotel/" target=”_blank” >Capybara Hotel</a>
-        </h4>
-
-        <a href="https://store.steampowered.com/app/2308260/Capybara_Hotel/" target=”_blank” >
-            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2308260/ss_77064c574c7fcccfb160fa8f0e878b51fd75336f.600x338.jpg?t=1677670992" alt="Arte do jogo Capybara Hotel">
-        </a>
-
-        <!-- Pokedex API -->
-        <h4>Protótipo - Pokedex API - Unity</h4>
-        <iframe frameborder="0" src="https://itch.io/embed-upload/9728974?color=333333" allowfullscreen="" width="985" height="563">
-            <a href="https://jeffersonjales.itch.io/pokemon-api-unity">Play Pokemon API (Unity) on itch.io</a>
-        </iframe>
+        <p id="about2">
+            Co-fundei, em 2018, a <a href="https://twitter.com/RoadoutGame" target=”_blank”>Rastrolabs Games Studio</a>, 
+            empresa focada em desenvolvimento de jogos digitais e uma das principais empresas do ramo no estado do Ceará. 
+            Atualmente estamos desenvolvendo o jogo 
+            <a href="https://store.steampowered.com/app/1829270/RoadOut/" target=”_blank” >RoadOut</a>, RoadOut
+            um jogo de ação e aventura, que será publicado em parceria com a 
+            <a href="https://dangenentertainment.com/">DANGEN Entertainment</a>.
+        </p>
     </div>
     
+    <!-- Contato -->
+    <h2>Contato</h2>
+    
+    <div class="contato">
+        <p>
+            Para falar comigo, basta escrever para o e-mail abaixo ou entrar em contato por meio das minhas redes sociais.
+        </p>
+        
+        <p>
+            <a href="https://github.com/JeffersonJales">Github</a> |
+            <a href="https://www.linkedin.com/in/jefferson-jales">LinkedIn</a> |
+            <a href="mailto:jalesjefferson@gmail.com">jalesjefferson@gmail.com</a>
+        </p>
+
+    </div>
+
+    <h2>Projetos</h2>
+    
+    <div class="row">
+
+
+        <!-- Roadout -->     
+        <div onclick="newTab('https://store.steampowered.com/app/1829270/RoadOut/')" class="card">
+            <img src="https://cdn.akamai.steamstatic.com/steam/apps/1829270/capsule_616x353.jpg?t=1666872415" alt="Arte do jogo RoadOut">
+
+            <p>
+                RoadOut é um jogo de ação e aventura desenvolvido no GameMaker com GML. Em produção desde 2021 com apoio da DANGEN Enterteiment.
+                Lançamento previsto para 2024, para as plataformas PC, Nintendo Switch, XBOX Series X/S, Sony Playstation 5. 
+            </p>
+        </div>
+    
+        <!-- Capybara Hotel -->
+        <div onclick="newTab('https://store.steampowered.com/app/2308260/Capybara_Hotel/')" class="card">
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2308260/ss_77064c574c7fcccfb160fa8f0e878b51fd75336f.600x338.jpg?t=1677670992" alt="Arte do jogo Capybara Hotel">
+
+            <p>
+                Capybara Hotel é um jogo no melhor estilo "Onde está Wally?" desenvolvido no GameMaker com GML. 
+                Lançamento previsto para o segundo trimestre de 2024.
+            </p>
+        </div>
+    
+        <!-- Pokedex API -->
+        <div onclick="newTab('https://jeffersonjales.itch.io/pokemon-api-unity')" class="card">
+            <img src="resources/poke_api.png">
+            <p>Protótipo de POKéDEX utilizando a API de pokémon https://pokeapi.co/ feito em C# com Unity 3D.</p>
+        </div>
+    </div>
+    
+    <!-- Habilidades -->
+    <h2>Minhas Habilidades</h2>
+    <p>
+        Tenho competências para trabalhar com desenvolvimento de Jogos Digitais com Unity (C#) e GameMaker (GML). 
+        Também tenho conhecimento sobre gerenciamento de equipes e estou iniciando na área de Netcoding.
+    </p>
+
+    <p>
+        Abaixo você pode conferir minha afinidade com tecnologias e ferramentas, numerados de 0 a 10.
+    </p>
+
+    <!-- Skills -->
+    <div id="skillbar">
+    </div>
+
+    <br>
 </body>
 
 <footer>
