@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="style/card.css">
     <link rel="stylesheet" href="style/habilidadr.css">
 
+    <script src="script/main.js"></script>
     <script src="script/text.js"></script>
     <script src="script/newTab.js"></script>
+
     <script src="components/skills.js"></script>
+    <script src="components/project_card.js"></script>
 </head>
 
 <header>
@@ -21,10 +24,6 @@
 </header>
 
 <body>
-    
-    <!-- Botão mudar lingua 
-    <button id="langButton" onclick="changeLanguage()"></button>
-    -->
     
     <h2>Jefferson Jales</h2>
     <hr>
@@ -53,38 +52,8 @@
     </div>
 
     <h2 id="projetoLabel">Projetos</h2>
+    <div class="row" id="row1"></div>
     
-    <div class="row">
-        <!-- Roadout -->     
-        <div onclick="newTab('https://store.steampowered.com/app/1829270/RoadOut/')" class="card">
-            <img src="resources/roadout_img.jpg" alt="Arte do jogo RoadOut">
-
-            <p id="project_roadout"></p>
-            <p id="project_roadout2"></p>
-        </div>
-    
-        <!-- Capybara Hotel -->
-        <div onclick="newTab('https://store.steampowered.com/app/2308260/Capybara_Hotel/')" class="card">
-            <img src="resources/capybara_img.jpg" alt="Arte do jogo Capybara Hotel">
-            <p id="project_capybara"></p>
-        </div>
-    
-        <!-- Pokedex API -->
-        <div onclick="newTab('https://jeffersonjales.itch.io/pokemon-api-unity')" class="card">
-            <img src="resources/poke_api.png">
-            <p id="project_pokedex"></p>
-        </div>
-    </div>
-    
-    <!-- 
-    <h2 id="habilidadeLabel">Minhas Habilidades</h2>
-    <p id="hardSkill1" class="p_about"></p>
-    <p id="hardSkill2" class="p_about"></p>
-    
-    <br>
-    
-    <div id="skillbar"></div>
-    -->
     <br>
 
 </body>
@@ -93,6 +62,5 @@
     <p id="created_by"></p>     
     <p id="created_when"></p>    
 </footer>
-
 
 </html>

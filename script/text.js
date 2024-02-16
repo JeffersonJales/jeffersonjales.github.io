@@ -50,23 +50,40 @@ add("hardSkill2", [
     "Below you can check my proficiency with technologies and tools, ranging from not comfortable (1) to very comfortable (5)."
 ])
 
-add("project_roadout",[
-    "RoadOut é um jogo de ação e aventura desenvolvido no GameMaker com GML.", 
-    "RoadOut is an action-adventure game developed in GameMaker with GML." 
+add("project_roadout0",[
+    "RoadOut é um jogo de ação e aventura em produção desde 2021 com apoio e publicação pela DANGEN Enterteimen.", 
+    "RoadOut is an action-adventure game in production since 2021 with support e publishing by DANGEN Entertainment."
 ])
-
+add("project_roadout1", [
+    "Lançamento previsto para 2024, para as plataformas PC, Nintendo Switch, XBOX Series X/S, Sony Playstation 5.",
+    "Scheduled for release in 2024 on PC, Nintendo Switch, XBOX Series X/S, and Sony Playstation 5.",
+]);
 add("project_roadout2", [
-    "Em produção desde 2021 com apoio da DANGEN Enterteiment. Lançamento previsto para 2024, para as plataformas PC, Nintendo Switch, XBOX Series X/S, Sony Playstation 5.",
-    "In production since 2021 with support from DANGEN Entertainment. Scheduled for release in 2024 on PC, Nintendo Switch, XBOX Series X/S, and Sony Playstation 5."
+    "Desenvolvido no GameMaker com GML.",
+    "Developed in GameMaker with GML."
+]);
+
+add("project_capybara0", [
+    "Capybara Hotel é um jogo no melhor estilo 'Onde está Wally?'. Durante a prototipação, foi utilizado o auxilio de ferramentas de IA para gerar código, assets visuais e sonoros, acelerando ainda mais o processo.",
+    "Capybara Hotel is a game in the best 'Where's Waldo?' style. During prototyping, AI tools were used to generate code, visual and sound assets, further speeding up the process." 
+])
+add("project_capybara1", [
+    "Lançamento previsto para o segundo trimestre de 2024.",
+    "Scheduled for release in the second quarter of 2024."
+])
+add("project_capybara2", [
+    "Desenvolvido no GameMaker com GML.",
+    "Developed in GameMaker with GML. "
 ])
 
-add("project_capybara", [
-    "Capybara Hotel é um jogo no melhor estilo 'Onde está Wally?'. Desenvolvido no GameMaker com GML. Lançamento previsto para o segundo trimestre de 2024.",
-    "Capybara Hotel is a game like 'Where's Waldo?'. Developed in GameMaker with GML. Scheduled for release in the second quarter of 2024."
+add("project_pokedex0", [
+    "Protótipo de POKéDEX utilizando a API pokeapi.co.",
+    "A POKéDEX prototype using the Pokémon API pokeapi.co." 
 ])
-add("project_pokedex", [
-    "Protótipo de POKéDEX utilizando a API de pokémon pokeapi.co. Feito em Unity 3D com C#.",
-    "A POKéDEX prototype using the Pokémon API pokeapi.co. Made in Unity 3D with C#."
+
+add("project_pokedex1", [
+    "Feito em Unity 3D com C#.",
+    "Made in Unity 3D with C#."
 ])
 
 add("created_by", [
@@ -96,5 +113,3 @@ function setEnglishLanguage(){
 function setPortugeseLanguage(){
     changeLanguage(LANGUAGES.PORTUGUESE);
 }
-
-document.addEventListener("DOMContentLoaded", setEnglishLanguage);
