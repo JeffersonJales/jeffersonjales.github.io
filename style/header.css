@@ -1,6 +1,25 @@
 header{
     width: 100%;
     margin: 0%;
-    height: 32px;
+    height: 40px;
     background-color: rgb(131, 131, 131);
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: inherit;
+    
+    padding: 5px;
+    
+    font-size: 16px;
+    text-align: center;
+}
+
+.btn_lang{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 5px;
 }
