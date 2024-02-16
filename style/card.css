@@ -16,7 +16,7 @@
     box-shadow: 5px 5px rgba(44, 138, 153, 0.75);
 }
 
-@media only screen and ((max-width:700px)) {
+@media only screen and ((max-width:1000px)) {
     .row {
         display: block;
     }
