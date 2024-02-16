@@ -52,7 +52,7 @@ add("hardSkill2", [
 
 add("project_roadout0",[
     "RoadOut é um jogo de ação e aventura em produção desde 2021 com apoio e publicação pela DANGEN Enterteimen.", 
-    "RoadOut is an action-adventure game in production since 2021 with support e publishing by DANGEN Entertainment."
+    "RoadOut is an action-adventure game in production since 2021 with support and publishing by DANGEN Entertainment."
 ])
 add("project_roadout1", [
     "Lançamento previsto para 2024, para as plataformas PC, Nintendo Switch, XBOX Series X/S, Sony Playstation 5.",
