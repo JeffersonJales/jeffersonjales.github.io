@@ -1,7 +1,7 @@
 function main(){
-    __add_project("https://store.steampowered.com/app/1829270/RoadOut/", "resources/roadout_img.jpg", "project_roadout", 3, "row1");
-    __add_project('https://store.steampowered.com/app/2308260/Capybara_Hotel/', "resources/capybara_img.jpg", "project_capybara", 3, "row1");
-    __add_project('https://jeffersonjales.itch.io/pokemon-api-unity', "resources/poke_api.png", "project_pokedex", 2, "row1");
+    __add_project("https://store.steampowered.com/app/1829270/RoadOut/", "resources/roadout_img.jpg", "project_roadout", 4, "row1");
+    __add_project('https://store.steampowered.com/app/2308260/Capybara_Hotel/', "resources/capybara_img.jpg", "project_capybara", 4, "row1");
+    __add_project('https://jeffersonjales.itch.io/pokemon-api-unity', "resources/poke_api.png", "project_pokedex", 3, "row1");
     
     setEnglishLanguage();
 
