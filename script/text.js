@@ -35,7 +35,7 @@ add("contatoInfo", [
     "To get in touch with me, simply write to the email below or reach out through my social media channels.",
 ])
 add("contatoLabel", ["Contato", "Contact"]);
-add("projetoLabel", ["Projetos", "Projects"]);
+add("projetoLabel", ["Projetos Comerciais", "Comercial Projects"]);
 add("habilidadeLabel", ["Minhas Habilidades", "My Skills"])
 add("hardSkill1", [
     "Tenho competências para trabalhar com desenvolvimento de Jogos Digitais com Unity (C#) e GameMaker (GML). Também tenho conhecimento em desenvolvimento full-stack e estou iniciando na área de Netcoding.", 
@@ -89,6 +89,33 @@ add("project_pokedex2", [
     "Feito em Unity 3D com C#.",
     "Made in Unity 3D with C#."
 ])
+add("project_burguer0",[
+    "Stack Burger Jump é um jogo sobre fazer o maior hamburguer do mundo. Para conseguir isso, será necessário misturar diferentes ingredientes e não deixar ele cair.",
+    "Stack Burger Jump is a game about making the world's largest hamburger. To achieve this, it will be necessary to mix different ingredients and not let it fall."
+])
+add("project_burguer1",[
+    "Jogo free-to-play, desenvolvido para smartphones. Sua monetização era feita exclusivamente através de propagandas com o Google AdMob. Feito com Unity 3D e C#.", 
+    "A free-to-play game, developed for smartphones. It's monetization was exclusively through advertisements with Google AdMob. Made with Unity 3D and C#."
+])
+add("project_arcship0",[
+    "ArcShip é um jogo de tiro arcade que celebra os jogos antigos e a nostagia, com uma roupagem atualizada e jogabilidade adaptada para smarthphones. Confira o vídeo de gameplay.",
+    "ArcShip is an arcade shooting game that celebrates old games and nostalgia, with an updated look and gameplay adapted for smartphones. Check out the gameplay video."
+])
+add("project_arcship1",[
+    "Desenvolvido em Unity 3D com C#.",
+    "Made in Unity 3D with C#."
+])
+add("project_ggj0",[
+    "Lista de jogos desenvolvidos durante várias edições da Global Game Jam. Todos os jogos digitais foram desenvolvidos em Unity 3D e C#.",
+    "List of games developed during various editions of the Global Game Jam. All digital games were developed in Unity 3D and C#."
+])
+add("project_ggj1",[
+    "Meu jogo favorito da lista é o Tip Pencil Journey. Nele, o jogador deve superar desafios de plataforma desenhando formas com um lápis.",
+    "My favorite game from the list is Tip Pencil Journey. In it, the player must overcome platform challenges by drawing shapes with a pencil."
+])
+
+
+
 add("created_by", [
     "Criado Por Jefferson Jales",
     "Created By Jefferson Jales"

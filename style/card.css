@@ -2,11 +2,14 @@
     display: flex;
 }
 
-.card{
-    width: 33%;
+.card, .card-mini{
+    width: 35%;
     padding: 20px;
-    margin: 10px;
-    border: solid;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
     cursor: pointer;
     
     border: none;
@@ -16,12 +19,16 @@
     box-shadow: 5px 5px rgba(44, 138, 153, 0.75);
 }
 
+.card-mini{
+    width: 20%; 
+}
+
 @media only screen and ((max-width:1200px)) {
     .row {
         display: block;
     }
 
-    .card{
+    .card, .card-mini{
         margin-left: auto;
         margin-right: auto;
         width: 80%;
@@ -42,13 +49,25 @@
 
 
 
-.card p{
+.card p, .card-mini p{
     font-size: 16px;
     margin-top: 10px;
+}
+
+.card-mini p{
+    font-size: 14px;
 }
 
 .card img{
     width: 100%;
     margin-bottom: 10px;
     border-radius: 10px;
+}
+
+.card-mini img{
+    width: 100%;
+    height: 256px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 20px;
 }
