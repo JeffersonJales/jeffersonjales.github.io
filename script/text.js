@@ -36,6 +36,7 @@ add("contatoInfo", [
 ])
 add("contatoLabel", ["Contato", "Contact"]);
 add("projetoLabel", ["Projetos Comerciais", "Comercial Projects"]);
+add("pessoalLabel", ["Projetos Pessoais e Game Jams", "Personal Projects & Game Jams"])
 add("habilidadeLabel", ["Minhas Habilidades", "My Skills"])
 add("hardSkill1", [
     "Tenho competências para trabalhar com desenvolvimento de Jogos Digitais com Unity (C#) e GameMaker (GML). Também tenho conhecimento em desenvolvimento full-stack e estou iniciando na área de Netcoding.", 
@@ -113,9 +114,6 @@ add("project_ggj1",[
     "Meu jogo favorito da lista é o Tip Pencil Journey. Nele, o jogador deve superar desafios de plataforma desenhando formas com um lápis.",
     "My favorite game from the list is Tip Pencil Journey. In it, the player must overcome platform challenges by drawing shapes with a pencil."
 ])
-
-
-
 add("created_by", [
     "Criado Por Jefferson Jales",
     "Created By Jefferson Jales"
